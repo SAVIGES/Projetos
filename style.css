@@ -1,16 +1,13 @@
-/* ===================================================
-   feito por eqp ripa odio KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK 
-   =================================================== */
-
 /* Fundo principal */
 .stApp {
-    background-color: #100d2bab; /* azul escuro */
+    background-color: #66adfa; /* azul escuro */
     color: #ffffff;
 }
 
 /* Textos gerais */
 body, h1, h2, h3, h4, h5, h6, p, .st-markdown {
     color: #ffffff !important;
+    
 }
 
 /* Bloco principal */
@@ -20,31 +17,35 @@ body, h1, h2, h3, h4, h5, h6, p, .st-markdown {
 
 /* Painel lateral */
 [data-testid="stSidebar"] {
-    background-color: #213d69 !important;
+    background-color: #2b00ff !important;
 }
 
 /* ===== BLOCO DE RESULTADO ===== */
 .recomendacao {
-    background-color: rgba(45, 99, 226, 0.514); /* azul mais vivo */
-    color: #ffffff;
-    padding: 15px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    border: 1px solid #3b82f6;
+    position: relative     ;
+    bottom: 2px !important;
+    right: 2px !important;
+    padding: 10px 10px !important;
+    border-radius: 8px !important;
+    top:auto !important;
+    background-color: rgba(8, 50, 147, 0.235) !important; /* translúcido */
+    color: #ffffff !important;
+    font-size: 14px !important;
+    z-index: 9999 !important;
 }
 
 /* Texto destacado */
 .destaque {
-    color: #4c7c91; /* azul-claro */
+    color: #031032; /* azul-claro */
     font-weight: bold;
-}
+} 
 
 /* ===== RODAPÉ "SOBRE NÓS" ===== */
-.rodape_01 {
-    position: fixed ;
+.sobre_nos {
+    position: static ;
     bottom: 10px !important;
     right: 20px !important;
-    background-color: rgba(15, 23, 42, 0.9) !important; /* translúcido */
+    background-color: rgba(255, 255, 255, 0.235) !important; /* translúcido */
     color: #ffffff !important;
     padding: 6px 8px !important;
     border-radius: 8px !important;
@@ -58,36 +59,4 @@ body, h1, h2, h3, h4, h5, h6, p, .st-markdown {
     font-weight: bold;
 }
 
-.texto {
-    position: absolute ;
-    bottom: -210px !important;
-    right: 20px !important;
-    background-color: rgba(15, 23, 42, 0.9) !important; /* translúcido */
-    color: #ffffff !important;
-    padding: 6px 8px !important;
-    border-radius: 8px !important;
-    font-size: 14px !important;
-    z-index: 9999 !important;
-}
-
-/* Estilizando o botão 'Iniciar Teste' */
-div.stButton > button {
-    background-color: #003366; /* Cor de fundo azul escuro */
-    color: white; /* Cor do texto */
-    font-weight: bold; /* Texto em negrito */
-    border: 2px solid #002244; /* Borda mais escura para contraste */
-    border-radius: 8px; /* Cantos arredondados */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    transition: all 0.3s ease; /* Suaviza mudanças no hover */
-}
-
-/* Efeito ao passar o mouse */
-div.stButton > button:hover {
-    right: 300px;
-    bottom: 500px;
-    background-color: #002244; /* Tom mais escuro no hover */
-    border-color: #001122; /* Borda mais escura no hover */
-    transform: scale(1.05); /* Pequeno aumento de tamanho no hover */
-}
+  
