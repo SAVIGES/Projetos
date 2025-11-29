@@ -42,14 +42,19 @@ body, h1, h2, h3, h4, h5, h6, p, .st-markdown {
 
 /* ===== RODAPÉ "SOBRE NÓS" ===== */
 .sobre_nos {
-    position: static ;
-    bottom: 10px !important;
-    right: 20px !important;
-    background-color: rgba(255, 255, 255, 0.235) !important; /* translúcido */
+    position: absolute; 
+    right: 20px;        
+    bottom: 10px;
+
+    display: inline-block; 
+
+    background-color: rgba(255, 255, 255, 0.235) !important;
     color: #ffffff !important;
-    padding: 2px 4px !important;
+
+    padding: 4px 8px; 
     border-radius: 15px !important;
-    font-size: 30px !important;
+
+    font-size: 20px !important; 
     z-index: 9999 !important;
 }
 
@@ -60,6 +65,7 @@ body, h1, h2, h3, h4, h5, h6, p, .st-markdown {
 }
 
   
+
 
 
 
