@@ -162,9 +162,10 @@ else:
 st.markdown(
     """
     <div class="sobre_nos">
-        <center><p><a href="https://www.instagram.com/escola_renato/">Sobre nós</a></p>
+        <center><p><a href=https://github.com/SAVIGES/Projetos">Sobre nós</a></p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
