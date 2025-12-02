@@ -2,11 +2,10 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import base64
 from questions_data import load_questions
 st.logo("images/logo1.png", size="large", link="https://www.instagram.com/escola_renato/")
 
-
+# configurações da página
 st.set_page_config(
     page_title="Algoritmo De Análise De Perfil",
     page_icon="🎓",
@@ -16,9 +15,6 @@ st.set_page_config(
 # Carrega CSS externo
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-
-
 
 def calcular_resultados(answers, questions):
     scores = {}
@@ -166,7 +162,4 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
-)
-
-
-
+)q
